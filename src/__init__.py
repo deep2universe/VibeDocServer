@@ -1,0 +1,3 @@
+"""
+VibeDoc source package
+"""
