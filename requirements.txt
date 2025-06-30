@@ -1,0 +1,56 @@
+# Core dependencies
+pocketflow>=0.0.1
+pyyaml>=6.0
+requests>=2.28.0
+gitpython>=3.1.0
+pathspec>=0.11.0
+python-dotenv>=1.0.0
+
+# FastAPI and server dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+sse-starlette>=1.8.0
+
+# LLM providers (uncomment the ones you need)
+# Google Gemini
+google-cloud-aiplatform>=1.25.0
+google-genai>=1.9.0
+
+# Anthropic Claude
+anthropic>=0.54.0
+
+# OpenAI
+# openai>=1.12.0
+
+# AWS Bedrock and S3
+boto3>=1.38.38
+botocore>=1.31.38
+
+# Azure OpenAI (included with openai package)
+# openai>=1.12.0
+
+# Video generation requirements
+moviepy==1.0.3
+Pillow==10.2.0
+playwright==1.42.0
+numpy==1.26.4
+imageio==2.34.0
+imageio-ffmpeg==0.4.9
+
+# Audio generation
+# Note: We use direct API calls instead of the elevenlabs library
+elevenlabs==1.2.2  # Required for audio generation
+
+# Markdown/Mermaid rendering
+markdown==3.5.2
+pymdown-extensions==10.7
+beautifulsoup4==4.12.3
+
+# Additional utilities
+aiohttp==3.9.3
+aiofiles==24.1.0
+
+tiktoken==0.9.0
+sseclient==0.0.27
+ipython==9.3.0
